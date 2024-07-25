@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.a1{
+    background-image: url(back1.jpg);
+    width: 100%;
+    min-height: 109vh;
+    background-position: center;
+    background-size: cover;
+    background-position: relative ;
+}
+.a2{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.a3{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.head{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(223, 149, 12);
+    margin-top: 20px;   
+}
+.a4{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul{
+    list-style-type: none;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    margin-top: 30px;
+    font-size: 14px;
+    margin-left: 60px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+ul li a:hover{
+    color: orange;
+}
+ul li a::after{
+    color: orange;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    cursor: pointer;
+}
+.s1{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(186, 139, 50);
+    margin-top: 13px;
+    color: aliceblue;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.but{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: aliceblue;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.cont{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+}
+.p1{
+    padding-left: 7px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.a5{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding-top: 200px;
+}
+.cont .btn1{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.cont .btn1 a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.btn1:hover{
+    background-color: aliceblue;
+}
+.cont span{
+    color: chocolate;
+    font-size: 55px;
+}
+.form{
+    width: 280px;
+    height: 450px;
+    border: 2px solid rgba(0,0,0,0.8)50%;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    border-radius: 10px;
+    position: absolute;
+    top: 160px;
+    left: 770px;
+    padding-left: 60px;
+    padding-right: 25px;
+}
+.form h2{
+    width: 230px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 8px;
+}
+.form input{
+    width: 250px;
+    height: 35px;
+    background: transparent;
+    border-right: grey;
+    border-top: grey;
+    border-left: grey;
+    border-bottom: 1px solid orangered;
+    color: aliceblue;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    margin-top: 32px;
+    font-family: sans-serif;
+}
+::placeholder{
+    color: aliceblue;
+    font-family: Arial;
+}
+.btn2{
+    width: 250px;
+    height: 40px;
+    background-color: orange;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 1px solid rgb(39, 20, 1);
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 0.4s ease;
+}
+.btn2:hover{
+    background: aliceblue;
+    color: rgb(39, 20, 1);
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-right: 40px;
+    text-align: center;
+}
+.form .p2 a{
+    text-decoration: none;
+    color: orange;
+}
+.p2{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.log{
+    text-align: center;
+    padding-right: 50px;
+    font-size: 15px;
+    padding-bottom: 6px;
+}
+.i1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.i1 ion-icon{
+    color: aliceblue;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.4s ease;
+}
+.i1 ion-icon:hover{
+    color: orange;
+}
